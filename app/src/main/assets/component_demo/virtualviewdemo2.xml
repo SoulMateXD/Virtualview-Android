@@ -32,7 +32,7 @@
             >
 
                 <VText
-                    layoutMarginTop="5"
+                    layoutMarginTop="15"
                     text="伙拼爆品"
                     textSize="17"
                     textColor="#ff0000"
@@ -74,7 +74,7 @@
                 layoutRatio="5"
                 layoutMarginTop="10"
                 layoutMarginRight="10"
-                layoutMarginBottom="20"
+                layoutMarginBottom="10"
             >
                 <NImage
                     layoutWidth="80"
@@ -129,7 +129,7 @@
             layoutWidth="0.5"
             orientation="V"
             color="#E8E8E8"
-                />
+        />
 
         <!--右边布局-->
         <RatioLayout

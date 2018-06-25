@@ -40,10 +40,10 @@ import com.tmall.wireless.vaf.framework.VafContext;
 import com.tmall.wireless.vaf.framework.ViewManager;
 import com.tmall.wireless.vaf.virtualview.Helper.ImageLoader.IImageLoaderAdapter;
 import com.tmall.wireless.vaf.virtualview.Helper.ImageLoader.Listener;
-import com.tmall.wireless.vaf.virtualview.Helper.VVFeatureConfig;
 import com.tmall.wireless.vaf.virtualview.event.EventManager;
 import com.tmall.wireless.vaf.virtualview.view.image.ImageBase;
 import com.tmall.wireless.virtualviewdemo.bytes.CLICKSCRIPT;
+import com.tmall.wireless.virtualviewdemo.bytes.DEMOITEM;
 import com.tmall.wireless.virtualviewdemo.bytes.FRAMELAYOUT;
 import com.tmall.wireless.virtualviewdemo.bytes.GRID;
 import com.tmall.wireless.virtualviewdemo.bytes.GRIDITEM;
@@ -224,6 +224,9 @@ public class VirtualViewApplication extends Application {
             sViewManager.loadBinBufferSync(TMALLCOMPONENT7.BIN);
             sViewManager.loadBinBufferSync(TMALLCOMPONENT8.BIN);
             sViewManager.loadBinBufferSync(PICASSO.BIN);
+            sViewManager.loadBinBufferSync(DEMOITEM.BIN);
+
+
             sViewManager.getViewFactory().registerBuilder(BizCommon.TM_TOTAL_CONTAINER,new TotalContainer.Builder());
             sViewManager.getViewFactory().registerBuilder(1014,new PicassoImage.Builder());
             sVafContext.getCompactNativeManager().register("TMTags", TMReminderTagsView.class);

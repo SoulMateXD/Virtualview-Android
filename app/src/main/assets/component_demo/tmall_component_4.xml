@@ -28,7 +28,7 @@
         action="action"
         layoutWidth="80"
         layoutHeight="wrap_content"
-        background="#FFFFFF"
+        background="#000000"
         orientation="V"
         gravity="v_center">
         <FrameLayout

@@ -121,7 +121,7 @@ public class ComponentListActivity extends ListActivity {
         HashMap<String, String> grid = new HashMap<String, String>();
         grid.put("name", "Grid");
         grid.put("class", ComponentActivity.class.getName());
-        grid.put("data", "component_demo/grid_item.json");
+        grid.put("data", "component_demo/grid.json");
         list.add(grid);
         HashMap<String, String> gridlayout = new HashMap<String, String>();
         gridlayout.put("name", "GridLayout");

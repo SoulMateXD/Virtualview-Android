@@ -63,8 +63,8 @@ import org.json.JSONObject;
 public class ParserDemoActivity extends Activity implements OnClickListener {
 
     private static final String TYPE = "PLAY_VV";
-    private static final String PLAY = "component_demo/virtualview.xml";
-    private static final String PLAY_DATA = "component_demo/virtualview.json";
+    private static final String PLAY = "component_demo/virtualviewdemo2.xml";
+    private static final String PLAY_DATA = "component_demo/virtualviewdemo2.json";
     private static final String CONFIG = "config.properties";
     private Button mDoParse;
     private LinearLayout mLinearLayout;

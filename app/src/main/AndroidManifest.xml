@@ -39,11 +39,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".DemoListActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <activity android:name=".ComponentListActivity"></activity>
@@ -52,7 +48,13 @@
         <activity android:name=".TmallComponentListActivity"></activity>
 
         <activity android:name=".ScriptListActivity"></activity>
-        <activity android:name=".ParserDemoActivity"></activity>
+        <activity android:name=".ParserDemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".LocalPreviewActivity" android:exported="true">
             <intent-filter>
                 <action android:name="com.tmall.wireless.virtualviewdemo.PREVIEW" />

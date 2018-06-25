@@ -25,9 +25,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+    >
     <Button android:id="@+id/parse" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:text="点击编译/sdcard/virtualview.xml文件"
+            android:text="点击编译"
     />
     <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
         <LinearLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="wrap_content"

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<VHLayout
+    flag="flag_exposure|flag_clickable"
+    orientation="V"
+    layoutWidth="match_parent"
+    layoutHeight="wrap_content"
+>
+
+    <Grid
+        colCount="5"
+        dataTag="${items}"
+        layoutHeight="wrap_content"
+        layoutWidth="match_parent"
+        layoutMarginLeft="25rp"
+        layoutMarginRight="25rp"
+        layoutMarginBottom="25rp"
+        itemHorizontalMargin="20"
+        itemVerticalMargin="10"
+    />
+
+</VHLayout>

@@ -27,7 +27,7 @@ apply plugin: 'com.antfortune.freeline'
 
 android {
     compileSdkVersion System.properties['compileSdkVersion'] ? Integer.parseInt(System.properties['compileSdkVersion']) : 25
-    buildToolsVersion System.properties['buildToolsVersion'] ? System.properties['buildToolsVersion'] : '25.0.3'
+    buildToolsVersion '26.0.2'
 
     lintOptions {
         abortOnError false
@@ -80,7 +80,6 @@ dependencies {
         exclude group: 'net.sf.kxml', module: 'kxml2'
         changing = true
     }
-
     compile 'com.google.code.gson:gson:2.8.2'
     compile 'com.squareup.okhttp3:okhttp:3.9.1'
 }
